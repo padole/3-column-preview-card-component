@@ -1,0 +1,107 @@
+.container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.sedans{
+    width: 210px;
+    height: 340px;
+    border: 0 solid;
+    background-color: orange;
+    padding: 30px;
+    color: white;
+    font-family: monospace;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.suvs{
+    width: 210px;
+    height: 340px;
+    border: 0 solid;
+    background-color: rgb(77, 136, 138);
+    padding: 30px;
+    color: white;
+    font-family: monospace;
+    
+}
+
+.luxury{
+    width: 210px;
+    height: 340px;
+    border: 0 solid;
+    background-color:rgb(27, 57, 58);
+    padding: 30px;
+    color: white;
+    font-family: monospace;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;   
+}
+
+p{
+    font-size: medium;
+    font-family: Arial;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: orange;
+    
+    
+}
+
+.btn1{
+    display: block;
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px 15px 15px 40px;
+    margin-top: 70px;
+    width: 110px;   
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: rgb(77, 136, 138);  
+}
+
+
+.btn2{
+    display: block;
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px 15px 15px 40px;
+    margin-top: 70px;
+    width: 110px;   
+}
+
+
+.btn3 a{
+    text-decoration: none;
+    color: rgb(27, 57, 58); 
+}
+
+
+.btn3{
+    display: block;
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px 15px 15px 40px;
+    margin-top: 70px;
+    width: 110px;   
+}
+
+
+@media only screen and (max-width: 600px){
+    .container{
+        display: block;
+        margin: 3rem 10rem 3rem 10rem ;
+    }
+}
+
+
+
+
